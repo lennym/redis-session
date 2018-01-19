@@ -5,7 +5,7 @@ A redis-backed session store for express
 
 ## Usage
 
-```
+```js
 const app = express();
 const session = require('@lennym/redis-session');
 app.use(session({ secret: 'a better secret than this' }));
