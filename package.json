@@ -1,0 +1,35 @@
+{
+  "name": "@lennym/redis-session",
+  "version": "1.0.0",
+  "description": "A redis-backed session store for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . --config lennym"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennym/redis-session.git"
+  },
+  "keywords": [
+    "redis",
+    "session",
+    "express"
+  ],
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennym/redis-session/issues"
+  },
+  "homepage": "https://github.com/lennym/redis-session#readme",
+  "dependencies": {
+    "connect-redis": "^3.3.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-lennym": "^1.4.0"
+  }
+}
