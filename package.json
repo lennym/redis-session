@@ -1,6 +1,6 @@
 {
   "name": "@lennym/redis-session",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A redis-backed session store for express",
   "main": "index.js",
   "scripts": {
