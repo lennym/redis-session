@@ -1,11 +1,7 @@
 const assert = require('assert');
-const crypto = require('crypto');
 const encryption = require('../lib/encryption');
 
-const { encrypt, decrypt } = encryption({
-  key: crypto.randomBytes(32),
-  iv: crypto.randomBytes(16)
-});
+const { encrypt, decrypt } = encryption('some secret pass', 'some special salt');
 
 describe('session encryption', () => {
   it('can encrypt and then decrypt a string', () => {
